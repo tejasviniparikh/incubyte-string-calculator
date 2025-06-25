@@ -31,3 +31,6 @@
 
 8. **[Code]:** Update add method to handle two numbers.
    - Updated add method to return sum of comma-separated numbers given in input string.
+
+9. **[Test]:** Add testcase for multiple comma-separated numbers in input string.
+   - Added testcase to return sum of comma-separated numbers given in input string.
