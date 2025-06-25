@@ -13,3 +13,6 @@
 2. **[Test]:** Add testcase to return zero on empty string.
    - Added testcase for add method to return zero when given empty string as an input.
    - Added skeleton for StringCalculator class.
+
+3. **[Code]:** Update add method to return zero when given empty string as an input.
+   - Add method is updated.
