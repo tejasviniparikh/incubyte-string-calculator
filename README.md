@@ -25,3 +25,6 @@
 
 6. **[Refactor]:** Refactor add method.
    - Remove unnecessary condition.
+
+7. **[Test]:** Add testcase for two comma-separated numbers in input string.
+   - Added testcase to return sum of two comma-separated numbers given in input string.
