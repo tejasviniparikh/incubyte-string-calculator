@@ -16,3 +16,6 @@
 
 3. **[Code]:** Update add method to return zero when given empty string as an input.
    - Add method is updated.
+
+4. **[Test]:** Add testcase for one number in input string.
+   - Added testcase to return number if the input string contains single number.
