@@ -22,3 +22,6 @@
 
 5. **[Code]:** Update add method to handle single number.
    - Updated add method to return number when given single number in input string.
+
+6. **[Refactor]:** Refactor add method.
+   - Remove unnecessary condition.
