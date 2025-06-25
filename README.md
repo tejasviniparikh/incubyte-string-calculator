@@ -19,3 +19,6 @@
 
 4. **[Test]:** Add testcase for one number in input string.
    - Added testcase to return number if the input string contains single number.
+
+5. **[Code]:** Update add method to handle single number.
+   - Updated add method to return number when given single number in input string.

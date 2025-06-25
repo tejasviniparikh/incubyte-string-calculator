@@ -4,5 +4,7 @@
 class StringCalculator
   def self.add(num_str)
     0 if num_str.strip.empty?
+
+    num_str.to_i
   end
 end
