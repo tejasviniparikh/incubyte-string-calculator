@@ -28,3 +28,6 @@
 
 7. **[Test]:** Add testcase for two comma-separated numbers in input string.
    - Added testcase to return sum of two comma-separated numbers given in input string.
+
+8. **[Code]:** Update add method to handle two numbers.
+   - Updated add method to return sum of comma-separated numbers given in input string.
