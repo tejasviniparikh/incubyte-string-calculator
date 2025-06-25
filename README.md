@@ -34,3 +34,6 @@
 
 9. **[Test]:** Add testcase for multiple comma-separated numbers in input string.
    - Added testcase to return sum of comma-separated numbers given in input string.
+
+10. **[Test]:** Add testcase to handle new lines.
+   - Added testcase to return sum of numbers separated by new lines (\n) in the input string.
