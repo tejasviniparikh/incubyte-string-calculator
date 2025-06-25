@@ -36,4 +36,7 @@
    - Added testcase to return sum of comma-separated numbers given in input string.
 
 10. **[Test]:** Add testcase to handle new lines.
-   - Added testcase to return sum of numbers separated by new lines (\n) in the input string.
+    - Added testcase to return sum of numbers separated by new lines (\n) in the input string.
+
+11. **[Code]:** Update add method to handle new lines.
+    - Updated add method to return sum of numbers separted by comma or by new line in the input string.

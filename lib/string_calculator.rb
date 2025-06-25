@@ -5,6 +5,6 @@ class StringCalculator
   def self.add(num_str)
     return num_str.to_i unless num_str.include?(',')
 
-    num_str.split(',').map(&:to_i).sum
+    num_str.split(/,|\\n/).map(&:to_i).sum
   end
 end
