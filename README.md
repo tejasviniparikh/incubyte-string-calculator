@@ -43,3 +43,7 @@
 
 12. **[Test]:** Add testcase to handle delimiters given in input string.
     - Add testcase to consider delimiter given in input string and return sum of numbers separated by it.
+
+13. **[Code]:** Update add method to handle different delimiters.
+    - update add method to get delimiter from input string if the string starts with '//' and return the sum of numbers.
+    - Add return statement for empty string to increase readability.
