@@ -47,3 +47,7 @@
 13. **[Code]:** Update add method to handle different delimiters.
     - update add method to get delimiter from input string if the string starts with '//' and return the sum of numbers.
     - Add return statement for empty string to increase readability.
+
+14. **[Refactor]:** Refactor add method.
+    - Create new method to get array of numbers from given input string.
+    - Make code more readable using dry principle.

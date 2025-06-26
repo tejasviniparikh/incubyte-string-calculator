@@ -5,11 +5,18 @@ class StringCalculator
   def self.add(num_str)
     return 0 if num_str.empty?
 
+    numbers = get_numbers_array(num_str)
+    numbers.map(&:to_i).sum
+  end
+
+  def self.get_numbers_array(num_str)
     if num_str.start_with?('//')
-      delimiter, numbers = num_str.split('\n', 2)
-      numbers.split(delimiter.gsub('//', '')).map(&:to_i).sum
+      delimiter, numbers_str = num_str.split('\n', 2)
+      delimiter = delimiter.gsub('//', '')
     else
-      num_str.split(/,|\\n/).map(&:to_i).sum
+      numbers_str = num_str
+      delimiter = /,|\\n/
     end
+    numbers_str.split(delimiter)
   end
 end
