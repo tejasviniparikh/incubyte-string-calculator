@@ -40,3 +40,6 @@
 
 11. **[Code]:** Update add method to handle new lines.
     - Updated add method to return sum of numbers separted by comma or by new line in the input string.
+
+12. **[Test]:** Add testcase to handle delimiters given in input string.
+    - Add testcase to consider delimiter given in input string and return sum of numbers separated by it.
