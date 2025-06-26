@@ -6,7 +6,11 @@ class StringCalculator
     return 0 if num_str.empty?
 
     numbers = get_numbers_array(num_str)
-    numbers.map(&:to_i).sum
+
+    negative_numbers = numbers.select(&:negative?)
+    raise StandardError, "negative numbers not allowed #{negative_numbers.join(',')}" if negative_numbers.any?
+
+    numbers.sum
   end
 
   def self.get_numbers_array(num_str)
@@ -17,6 +21,6 @@ class StringCalculator
       numbers_str = num_str
       delimiter = /,|\\n/
     end
-    numbers_str.split(delimiter)
+    numbers_str.split(delimiter).map(&:to_i)
   end
 end

@@ -55,3 +55,6 @@
 15. **[Test]:** Add testcases to handle negative numbers.
     - Added testcase to throw exception on negative numbers.
     - Added testcase to check exception contains list of negative numbers.
+
+16. **[Code]:** Update add method to handle negative numbers.
+    - Updated add methof to throw exception when input string includes negative numbers.
