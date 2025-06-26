@@ -51,3 +51,7 @@
 14. **[Refactor]:** Refactor add method.
     - Create new method to get array of numbers from given input string.
     - Make code more readable using dry principle.
+
+15. **[Test]:** Add testcases to handle negative numbers.
+    - Added testcase to throw exception on negative numbers.
+    - Added testcase to check exception contains list of negative numbers.
